@@ -29,15 +29,53 @@
 // var year = 2020 - year;
 // alert(age)
 
-// var currentNumber = 0;
-// var stopNumber = 10;
+// var currentNumber = 15;
+// var stopNumber = 0;
 
-// while (currentNumber < stopNumber) {
-// currentNumder = currentNumber + 1;
+// while (currentNumber > stopNumber) {
+// currentNumber = currentNumber - 1;
 // console.log(currentNumber);
 // }
 
-for (var i=0; i<=10; i++) {
+for (var i=0; i<=100; i++) {
+    if (i % 25 === 0);
     console.log(i);
 }
+   
+// console.log(10%3);
 
+
+var country = prompt("What is the country you want know capital of?", "We will find it!");
+if (country === "USA") {
+    alert("Washington");
+}
+else if (country === "Japan") {
+    alert("Tokyo");
+}
+else if (country === "South Korea") {
+    alert("Seoul")
+}
+else if (country === "Kazakhstan") {
+    alert("Nur-Sultan")
+}
+else if (country === "China") {
+    alert("Pekin")
+}
+else if (country === "Indonesia") {
+    alert("Jakarta")
+}
+else if (country === "Switzerland") {
+    alert("Bern")
+}
+else if (country === "Italy") {
+    alert("Milan")
+}
+else if (country === "Norway") {
+    alert("Oslo")
+}
+else if (country === "Australia") {
+    alert("Canberra")
+}
+else {
+    alert("We don't know this country.")
+}
