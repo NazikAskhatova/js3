@@ -29,5 +29,15 @@
 // var year = 2020 - year;
 // alert(age)
 
+// var currentNumber = 0;
+// var stopNumber = 10;
 
+// while (currentNumber < stopNumber) {
+// currentNumder = currentNumber + 1;
+// console.log(currentNumber);
+// }
+
+for (var i=0; i<=10; i++) {
+    console.log(i);
+}
 
