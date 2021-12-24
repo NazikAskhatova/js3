@@ -5,11 +5,14 @@
 // alert(message);
 
 // var year = prompt("When year Kyrgyzstan gained independence?");
-// if (year === "1991") {
-//     alert("Correct!");
+// if (year > "1991") {
+//     alert("This year is after indepence year.");
+// }
+// else if (year === "1991") {
+// alert("U got it!")
 // }
 // else {
-//     alert("Incorrect!")
+//     alert("This year is before indepence year.")
 // }
 
 // var example1 = "Hello " - "World";
@@ -25,4 +28,6 @@
 // var age = prompt("How old are u?")
 // var year = 2020 - year;
 // alert(age)
+
+
 
